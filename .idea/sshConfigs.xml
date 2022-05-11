@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="polimer.beget.tech" id="52dd04cd-b0be-436e-9a53-3fe1198250f9" port="22" nameFormat="DESCRIPTIVE" username="polimer_masalex" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

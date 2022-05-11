@@ -1,0 +1,46 @@
+.wccm-button,
+.woocommerce.single-product .wccm-button {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+/*  wishlist */
+
+.wishlist-products {
+    display: flex;
+}
+
+.wishlist-product {
+    position: relative;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.wishlist-product-remove {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #111431;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.wishlist-product-button a {
+    display: block;
+    background: #111431;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 15px;
+}
+
+.wishlist-product-title {
+    font-weight: bold;
+}
+
+.wishlist-product-price {
+    color: #fdbb59;
+}

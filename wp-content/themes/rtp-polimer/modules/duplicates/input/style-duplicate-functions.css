@@ -1,0 +1,91 @@
+#edittag {
+    max-width: 100%;
+}
+
+.duplicate_page_title .acf-input-append {
+    cursor: pointer;
+}
+
+.disabled_value {
+    border: 1px solid #ff0000 !important;
+}
+
+#duplicate_page_message {
+    display: none;
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    background: ghostwhite;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+    z-index: 999;
+}
+
+#duplicate_page_message > td, #duplicate_page_message > div {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: auto !important;
+}
+
+#duplicate_page_message .acf-input {
+    margin-top: 25px;
+    color: #ff0000;
+}
+
+#duplicate_page_message .acf-label:after {
+    content: 'x';
+    position: absolute;
+    right: 0;
+    top: 0px;
+    background: black;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    font-size: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal_editor_popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+    background: #0000009c;
+}
+.modal_editor_popup .dashicons {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+}
+#insert_modal_content {
+    width: 600px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px 0;
+    background: #0085ba;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}

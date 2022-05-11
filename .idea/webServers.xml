@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="012615cf-ef64-4fb1-87c8-dc9e65f5b5d2" name="rustehprom-polimer.ru" url="https://rustehprom-polimer.ru">
+        <fileTransfer rootFolder="/home/p/polimer/rustehprom-polimer.ru/public_html" accessType="SFTP" host="polimer.beget.tech" port="22" sshConfigId="52dd04cd-b0be-436e-9a53-3fe1198250f9" sshConfig="polimer_masalex@polimer.beget.tech:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="rustehprom-polimer.ru" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="rustehprom-polimer.ru">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="https://rustehprom-polimer.ru" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/uploads" />
+            <excludedPath local="true" path="$PROJECT_DIR$/wp-content/uploads_old" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

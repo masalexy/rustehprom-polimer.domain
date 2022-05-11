@@ -1,0 +1,160 @@
+li.region-item {
+    padding: 10px;
+    background: #fff;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul.region-list {
+    width: 99%;
+    display: block;
+    clear: both;
+}
+
+li.region-item:last-child {
+    border: 0;
+}
+
+a.region-edit {
+    color: #0089ff;
+    text-decoration: none;
+}
+
+li.region-item:hover {
+    background: #e0e0e0;
+}
+
+.region_added {
+    border: 3px solid lime;
+    padding: 10px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    width: 99%;
+}
+
+.region-not-exists {
+    border: 3px solid red;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.region-form {
+    margin-top: 20px;
+}
+
+.region-name {
+    font-weight: bold;
+}
+
+a.add-region-button {
+    float: right;
+    display: block;
+    padding: 10px;
+    background: #0073aa;
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.shortcodes-table {
+    border-collapse: collapse;
+    background: #424242;
+    color: #fff;
+}
+
+.shortcodes-table td {
+    padding: 10px;
+}
+
+.shortcodes-table tr:nth-child(2n) {
+    background: #585858;
+}
+
+
+
+.region-table {
+    border-collapse: collapse;
+    background: #424242;
+    color: #fff;
+    width: 99%;
+}
+
+.region-table td {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.region-table tr:nth-child(2n) {
+    background: #585858;
+}
+
+.region-table input,
+.region-table textarea{
+    padding: 10px;
+    width: 100%;
+}
+
+.region-table select{
+    width: 100%;
+    height: 38px;
+}
+
+.region-table td:first-child {
+    max-width: 100px;
+}
+
+.region-table textarea {
+    min-height: 200px;
+}
+
+.region-button {
+    padding: 10px;
+    float: right;
+    width: 200px;
+    background: #0073aa;
+    color: #fff;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.search-region {
+    float: left;
+    display: block;
+    padding: 10px;
+    border: 1px solid #0073aa !important;
+    color: #0173aa !important;
+    margin: 10px 10px 10px 0;
+    width: 80%;
+}
+
+.code-section {
+    background-color: #fff !important;
+    padding: 10px;
+    width: 900px;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    font-size: 11px;
+}
+
+.code-section.small {
+    min-height: 260px;
+}
+
+.code-section p {
+    margin: 0;
+}
+
+a.requirement-complete {
+    display: block;
+    padding: 10px;
+    background: #0073aa;
+    color: #fff;
+    margin: 20px 0 20px;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+}

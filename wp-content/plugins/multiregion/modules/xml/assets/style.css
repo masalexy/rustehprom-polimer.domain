@@ -1,0 +1,40 @@
+#add-feed-item {
+    float: right;
+    background: red;
+    font-size: 13px;
+    padding: 5px 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#add-feed-item .dashicons {
+    font-size: 14px;
+    width: 14px;
+    height: 10px;
+}
+
+#feed-items-table {
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+#feed-items-table thead {
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#feed-items-table thead td {
+    padding: 5px;
+}
+
+#save-feed-items {
+    padding: 8px 25px;
+    margin: 5px;
+    background: blue;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
