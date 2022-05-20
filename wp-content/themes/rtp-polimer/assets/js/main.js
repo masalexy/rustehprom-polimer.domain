@@ -7,6 +7,12 @@ jQuery(document).ready(function(){
         jQuery(this).closest('.container_main-popup').removeClass('show');
     });
 
+	jQuery('.cart-popup__btn').click(function(){
+		jQuery('body').removeClass('notScroll');
+		jQuery(this).closest('.container_main-popup').find('.wpcf7-response-output, .wpcf7-not-valid-tip').hide();
+		jQuery(this).closest('.container_main-popup').removeClass('show');
+	});
+
     jQuery('.container_main-popup').click(function(e){
         if( !jQuery(e.target).closest('.main-popup').hasClass('main-popup') ){
             jQuery(this).find('.main-popup__close').click();
