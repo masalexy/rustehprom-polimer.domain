@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+		<?php if($_SERVER['HTTP_HOST'] != 'rustehprom-polimer.ru' && $_SERVER['REQUEST_URI'] != '/kontakty/'): ?>
+			<meta name="robots" content="noindex" />
+		<?php endif; ?>
+
     <?php if( is_single(4485) ): ?>
         <meta http-equiv="refresh" content="3;url=https://ya.cc/t/nrEs9QosEeYMG" />
     <?php endif; ?>
